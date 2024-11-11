@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Info</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/fetch-data.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Crypto Currency Info</h1>
+    </header>
+
+    <main>
+        <div id="main-Container">
+
+            <div id="dropdown-box">
+                <select id="crypto-select">
+                  <option value="">--Select a Cryptocurrency--</option>  
+                </select>
+            </div>
+
+            <div id="info-box">
+                <h2 id="crypto-name">Select a Cryptocurrency</h2> 
+                <p><strong>Symbol:</strong> <span id="crypto-symbol">N/A</span></p>
+                <p><strong>Supply:</strong> <span id="crypto-supply">N/A</span></p>
+                <p><strong>Price (USD):</strong> $<span id="crypto-price">N/A</span></p>
+                <p><strong>% Change (24 hrs):</strong> <span id="crypto-change">N/A</span>%</p>
+            </div>
+        </div>
+  
+</body>
+</html>
